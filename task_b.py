@@ -15,19 +15,19 @@ grade = input("What grade did you get? ")
 
 
 if not grade.isnumeric():
-    print("Error: Please enter a valid number.")
+    print("Error: Please enter a number")
 else:
     grade = int(grade)
     if grade < 0 or grade > 100:
         print("Error: Grades must be between 0 and 100")
     else:
         if grade >= 80:
-            print(f"Your grade is A")
+            print(f"Your grade is: A")
         elif grade >= 60:
-            print(f"Your grade is B")
+            print(f"Your grade is: B")
         elif grade >= 50:
-            print(f"Your grade is C")
+            print(f"Your grade is: C")
         elif grade >= 40:
-            print(f"Your grade is D")
+            print(f"Your grade is: D")
         else:
-            print(f"Your grade is F")
+            print(f"Your grade is: F")
